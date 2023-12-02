@@ -59,6 +59,9 @@ if username == 'balan' and password == 'balan':
   
       # Display the predicted figure
       st.plotly_chart(fig_predicted)
+      st.write('Mean RMSE: 0.73 m')
+      st.write('Max Depth: 24.59 m')
+      st.write('RMSE as percentage of max depth: 2.97 %')
 
       # # Convert DataFrame to CSV string using StringIO
       # csv_buffer = StringIO()
