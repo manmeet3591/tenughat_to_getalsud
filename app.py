@@ -32,7 +32,7 @@ if username == 'balan' and password == 'balan':
       st.write('Sentinel 2A, Landsat 8 data being loaded, atmospheric correction performed including considering pixels with cloud cover < 20 %')
   
       # Simulating data loading
-      time.sleep(20)  # Waits for 1 minute
+      time.sleep(60)  # Waits for 1 minute
       st.success('Data loading complete. Supervised learning dataset ready for Satellite Derived Bathymetry using machine learning')
   
   # Button to train machine learning model
